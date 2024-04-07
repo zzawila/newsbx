@@ -92,6 +92,26 @@ p {
   }
 
 
+   /* unvisited link */
+a:link {
+    color: #ffde59;
+  }
+  
+  /* visited link */
+  a:visited {
+    color: #ffde59;
+  }
+  
+  /* mouse over link */
+  a:hover {
+    color: #b83b3b;
+  }
+  
+  /* selected link */
+  a:active {
+    color: #ffde59;
+  } 
+
 
 /* containers */
 
