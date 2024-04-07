@@ -7,7 +7,6 @@
 
 body,
 html {
-    /* Sets default font-size to 16px, ensuring 1em = 16px; */
     font-size: 16px;
 }
 
@@ -70,7 +69,6 @@ p {
     background-color: #b83b3b;
     padding: 20px;
     width: 35%;
-    /* max-width: 400px; */
     box-sizing: border-box;
     overflow: hidden;
     position: relative;
@@ -82,7 +80,6 @@ p {
     background-color: #b83b3b;
     padding: 20px;
     width: 35%;
-    /* max-width: 400px; */
     box-sizing: border-box;
     overflow: hidden;
     position: relative;
@@ -178,80 +175,6 @@ img.sidebysideimg {
 }
 
 
-
-
-.scene {
-    height: 50vh;
-    text-align: center;
-    display: flex;
-    margin-top: 200px;
-    background-color: beige;
-    margin: 25vh auto;
-    border: 2px solid black;
-    justify-content: center;
-    align-items: center;
-    width: 500px;
-}
-
-/* .container {
-    display: flex;
-    justify-content: space-evenly;
-} */
-
-
-.graphic-container, .slide-containers {
-    max-width: 50%;
-}
-
-.graphic-container {
-    position: sticky;
-    display: flex;
-    align-items: center;
-    height: 100vh;
-    top: 0px
-}
-
-#graphic-text {
-    font-size: 2em;
-    font-family: Arial, Helvetica, sans-serif;
-    text-align: center;
-    width: 300px;
-}
-
-.scene.active {
-    background-color: aqua;
-}
-
-/* scroll formatting */
-.scroll_container {
-    height: 2000px; /* Adjust as needed */
-  }
-  
-  .scroll_image {
-    position: relative;
-    width: 100%;
-    height: 150vh;
-    overflow: hidden;
-  }
-  
-  .imgscrolly {
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    transition: opacity 0.5s ease;
-  }
-
-.bigpicture {
-    width: 100%;
-    opacity: 0.5;
-}
-
-
-
-
-
 /*  image formatting */
 
 .smallimage {
@@ -293,7 +216,6 @@ img.sidebysideimg {
 .icon_yellow {
     width: 30px;
     height: 30px;
-    /* opacity: 0.2; */
 }
 
 
@@ -308,7 +230,6 @@ img.sidebysideimg {
 
 
     .smallimage {
-        /* Flex box styles go on the flex box element */
         display: flex;
         flex-direction: column;
     }
@@ -318,7 +239,6 @@ img.sidebysideimg {
         background-color: #b83b3b;
         padding: 20px;
         width: 80%;
-        /* max-width: 400px; */
         box-sizing: border-box;
         overflow: hidden;
         position: relative;
@@ -330,14 +250,12 @@ img.sidebysideimg {
         position: relative;
         width: 100%;
         height: 800px;
-        /* overflow: hidden; */
     }
 
     .wide_caption {
         background-color: #b83b3b;
         padding: 20px;
         width: 80%;
-        /* max-width: 400px; */
         box-sizing: border-box;
         overflow: hidden;
         position: relative;
@@ -376,7 +294,6 @@ img.sidebysideimg {
 
 
     .smallimage {
-        /* Flex box styles go on the flex box element */
         display: flex;
         flex-direction: column;
     }
@@ -386,7 +303,6 @@ img.sidebysideimg {
         background-color: #b83b3b;
         padding: 20px;
         width: 80%;
-        /* max-width: 400px; */
         box-sizing: border-box;
         overflow: hidden;
         position: relative;
@@ -398,7 +314,6 @@ img.sidebysideimg {
         background-color: #b83b3b;
         padding: 20px;
         width: 80%;
-        /* max-width: 400px; */
         box-sizing: border-box;
         overflow: hidden;
         position: relative;
@@ -425,5 +340,4 @@ img.sidebysideimg {
 }
 
 
-/* desktop formatting */
 
